@@ -1,0 +1,23 @@
+[
+  {
+    "title": "VPN client cannot connect",
+    "summary": "User receives timeout while connecting to corporate VPN.",
+    "keywords": ["vpn", "timeout", "cannot connect", "remote"],
+    "fix_steps": "Restart VPN service, verify MFA prompt, and switch to fallback gateway.",
+    "url": "https://halo.example.com/kb/vpn-client-cannot-connect"
+  },
+  {
+    "title": "Outlook keeps asking for password",
+    "summary": "Repeated credential prompts in Outlook desktop app.",
+    "keywords": ["outlook", "password", "credentials", "mail"],
+    "fix_steps": "Clear cached credentials, re-open Outlook, and re-authenticate using SSO.",
+    "url": "https://halo.example.com/kb/outlook-password-loop"
+  },
+  {
+    "title": "Laptop performance is very slow",
+    "summary": "System lag and high CPU usage complaints.",
+    "keywords": ["slow", "performance", "cpu", "laptop", "freeze"],
+    "fix_steps": "Check Task Manager for heavy apps, run company endpoint health script, and reboot.",
+    "url": "https://halo.example.com/kb/laptop-slow-performance"
+  }
+]
